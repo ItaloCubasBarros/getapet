@@ -27,7 +27,7 @@ const Pet = db.define('Pet', {
     },
     adopter:{
         type: DataTypes.INTEGER,
-        allowNull: false
+        allowNull: true
     }
 })
 
